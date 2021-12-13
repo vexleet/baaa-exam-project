@@ -4,7 +4,7 @@
     padding-bottom: 100px;
 }
 
-.get-wasted > img {
+.get-wasted > picture img {
     position: absolute;
     z-index: -2;
     top: -50px;
@@ -29,6 +29,10 @@
     margin: 30px auto 0;
 }
 
+.get-wasted .heading-desktop {
+    display: none;
+}
+
 .get-wasted li {
     display: flex;
     align-items: center;
@@ -44,4 +48,32 @@
     display: block;
     width: max-content;
     margin: 30px auto 0;
+}
+
+@media only screen and (min-width: 900px) {
+    .get-wasted {
+        padding: 60px 0 120px;
+    }
+
+    .get-wasted-wrapper {
+        display: flex;
+        max-width: 1200px;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .get-wasted .heading-mobile {
+        display: none;
+    }
+
+    .get-wasted .heading-desktop {
+        display: block;
+        font-size: 50px;
+    }
+
+    .get-wasted iframe {
+        width: 60%;
+        height: 400px;
+    }
 }

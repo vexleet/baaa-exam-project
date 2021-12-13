@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="566" viewBox="0 0 1280 566">
+  <g id="blob-scene-haikei_2_" data-name="blob-scene-haikei (2)" transform="translate(0 4.488)">
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="1280" height="557" fill="#fffdb7"/>
+    <g id="Group_8" data-name="Group 8" transform="translate(714 -4.488)">
+      <path id="Path_7" data-name="Path 7" d="M0,566c-58-6.9-116-13.9-174.6-28.7-58.6-14.7-117.9-37.3-158.1-79.4-40.2-42-61.4-103.4-83.1-155.8-21.8-52.3-44.1-95.7-69.2-144.5C-510.2,108.8-538.1,54.4-566,0H0Z" transform="translate(566)" fill="#aef4a4"/>
+    </g>
+    <g id="Group_9" data-name="Group 9" transform="translate(0 -4.488)">
+      <path id="Path_8" data-name="Path 8" d="M0-566c50.5,32.6,101,65.2,158.5,78.1,57.5,13,122,6.2,174.2,30,52.2,23.7,92.2,77.8,114.7,132.9,22.5,55,27.4,110.9,44.3,165.2C508.6-105.4,537.3-52.7,566,0H0Z" transform="translate(0 566)" fill="#aef4a4"/>
+    </g>
+  </g>
+</svg>

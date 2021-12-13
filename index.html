@@ -12,6 +12,7 @@
             <img width="1023" height="681" src="images/hero-image.jpg" alt="Man wasted on the floor after playing Twister Wasted"/>
 
             <section>
+                <img src="images/blob.svg" alt="Blob"/>
                 <h1>Twister Wasted</h1>
                 <p>Best Alcoholic Game</p>
                 <p>Only for the Strongest</p>
@@ -22,29 +23,37 @@
         </section>
 
         <section class="get-wasted">
-            <!-- TODO ADD PICTURE TAG -->
-            <img src="images/blob-background-mobile.svg" alt="Two Blobs on the side with space between them"/>
+            <picture>
+                <source media="(min-width: 900px)" srcset="images/blob-background-desktop.svg">
+                <img src="images/blob-background-mobile.svg" alt="Two Blobs on the side with space between them"/>
+            </picture>
 
-            <h1>Lets Get Wasted</h1>
+            <section class="get-wasted-wrapper">
+                <h1 class="heading-mobile">Lets Get Wasted</h1>
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/7A5XO0udmdo?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7A5XO0udmdo?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-            <ul>
-                <li>
-                    <img width="54" height="54" src="images/tick.svg" alt="Tick Icon"/>
-                    <p>Fun And Wild</p>
-                </li>
-                <li>
-                    <img width="54" height="54" src="images/tick.svg" alt="Tick Icon"/>
-                    <p>Social</p>
-                </li>
-                <li>
-                    <img width="54" height="54" src="images/tick.svg" alt="Tick Icon"/>
-                    <p>Get Wasted</p>
-                </li>
-            </ul>
+                <section class="get-wasted-content">
+                    <h1 class="heading-desktop">Lets Get Wasted</h1>
 
-            <a href="rules.html" class="main-button">Read The Rules</a>
+                    <ul>
+                        <li>
+                            <img width="54" height="54" src="images/tick.svg" alt="Tick Icon"/>
+                            <p>Fun And Wild</p>
+                        </li>
+                        <li>
+                            <img width="54" height="54" src="images/tick.svg" alt="Tick Icon"/>
+                            <p>Social</p>
+                        </li>
+                        <li>
+                            <img width="54" height="54" src="images/tick.svg" alt="Tick Icon"/>
+                            <p>Get Wasted</p>
+                        </li>
+                    </ul>
+
+                    <a href="rules.html" class="main-button">Read The Rules</a>
+                </section>
+            </section>
         </section>
 
         <section class="about-game">
@@ -56,21 +65,29 @@
         </section>
 
         <section class="buy-game">
-            <img class="background" src="images/circle-scatter-mobile.svg" alt="Scattered different sized circles"/>
+            <picture>
+                <source media="(min-width: 900px)" srcset="images/circle-scatter-desktop.svg">
+                <img class="background" src="images/circle-scatter-mobile.svg" alt="Scattered different sized circles"/>
+            </picture>
 
-            <h1>Buy The Game</h1>
+            <section class="buy-game-wrapper">
+                <h1 class="heading-mobile">Buy The Game</h1>
+                <img class="twister-cover" src="images/twister-game.png" alt="Twister Wasted Front"/>
 
-            <img class="twister-cover" src="images/twister-game.png" alt="Twister Wasted Front"/>
+                <section class="buy-game-content">
+                    <h1 class="heading-desktop">Buy The Game</h1>
 
-            <h2>Twister Wasted</h2>
+                    <h2>Twister Wasted</h2>
 
-            <p>
-                Add a wasted twist to your party with friends by playing one of the highest rated drinking games. Try and keep up and not fall down as you are drinking and doing different drinking challenges and become the best.
-            </p>
+                    <p>
+                        Add a wasted twist to your party with friends by playing one of the highest rated drinking games. Try and keep up and not fall down as you are drinking and doing different drinking challenges and become the best.
+                    </p>
 
-            <p class="price">300 DKK</p>
+                    <p class="price">300 DKK</p>
 
-            <a href="#" class="main-button">Order the Game</a>
+                    <a href="#" class="main-button">Order the Game</a>
+                </section>
+            </section>
         </section>
     </main>
 </body>

@@ -13,9 +13,13 @@
     z-index: -1;
 }
 
-.buy-game h1 {
+.buy-game .heading-mobile {
     text-align: center;
     margin-bottom: 20px;
+}
+
+.buy-game .heading-desktop {
+    display: none;
 }
 
 .buy-game .twister-cover {
@@ -37,4 +41,36 @@
     display: block;
     width: max-content;
     margin: 0 auto;
+}
+
+@media only screen and (min-width: 900px) {
+    .buy-game-wrapper {
+        display: flex;
+        max-width: 1200px;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .buy-game .heading-mobile {
+        display: none;
+    }
+
+    .buy-game .heading-desktop {
+        display: block;
+    }
+
+    .buy-game-content {
+        width: 45%;
+    }
+
+    .buy-game .twister-cover {
+        width: 50%;
+        height: 500px;
+    }
+
+    .buy-game .heading-desktop {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
 }
