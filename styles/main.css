@@ -2,7 +2,7 @@
 @import "reset.css";
 @import "fonts.css";
 @import "typography.css";
-
+@import "common.css";
 
 /* Start COMPONENTS */
 @import "components/buttons.css";
@@ -11,4 +11,7 @@
 
 /* Start LAYOUT */
 @import "layout/hero-section.css";
+@import "layout/get-wasted.css";
+@import "layout/about-game.css";
+@import "layout/buy-game.css";
 /* End LAYOUT */
