@@ -1,0 +1,60 @@
+.how-to-play {
+    padding: 30px 10px 30px;
+}
+
+.how-to-play h1{
+    text-align: center;
+}
+
+.how-to-play > p {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.how-to-play li {
+    display: flex;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.how-to-play ul li::before {
+    background: url("../../images/list-icon.svg") no-repeat center center;
+    background-size: contain;
+    min-width: 30px;
+    height: 30px;
+    content: "";
+    display: block;
+    margin-right: 10px;
+}
+
+.how-to-play ul li:not(:last-of-type)::after {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 2px;
+    background-color: #707070;
+    position: absolute;
+    top: 5px;
+    left: 14px;
+    z-index: -1;
+}
+
+.how-to-play h2 {
+    margin-bottom: 5px;
+}
+
+.how-to-play li p {
+    font-size: 20px;
+}
+
+.how-to-play .main-button {
+    margin-top: 15px;
+}
+
+@media only screen and (min-width: 900px) {
+    .how-to-play {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
