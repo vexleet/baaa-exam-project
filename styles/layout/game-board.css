@@ -1,0 +1,102 @@
+.game-board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    padding: 0 30px;
+}
+
+.game-board h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.game-board p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.game-board-fields {
+    width: 100%;
+    background: #fff;
+    padding: 10px 15px;
+    border: 1px solid #707070;
+    max-width: 340px;
+}
+
+.game-board-fields .row:not(:last-of-type) {
+    margin-bottom: 20px;
+}
+
+.game-board-fields .row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-board-fields .field {
+    width: 55px;
+    height: 55px;
+    border-radius: 100px;
+    cursor: pointer;
+    border: 1px solid #707070;
+}
+
+.game-board-fields .field.green {
+    background: var(--complementary);
+}.game-board-fields .field.yellow {
+    background: var(--background);
+}.game-board-fields .field.blue {
+    background: var(--secondary);
+}.game-board-fields .field.red {
+    background: var(--primary);
+}
+
+.game-board-fields h2:first-of-type {
+ margin-bottom: 10px;
+}
+
+.game-board-fields h2:last-of-type {
+ text-align: right;
+ margin-top: 10px;
+}
+
+@media only screen and (min-width: 900px) {
+    .game-board {
+        margin-top: 50px;
+    }
+}
+
+.modal {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: var(--background);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    height: 500px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modal-content p {
+    font-family: 'Raleway-Bold', sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
