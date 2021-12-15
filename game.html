@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twister Wasted | Create game</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <main class="main-create-game">
+        <section class="create-game">
+            <h1>Create Mine Pool</h1>
+
+            <label class="input-label" for="partyName">
+                <input id="partyName" type="text" placeholder="Party Name"/>
+            </label>
+
+            <section class="selects-wrapper">
+                <label class="custom-select" for="difficultySelect">
+                    <select id="difficultySelect">
+                        <option selected disabled value="">Challenges Difficulty</option>
+                        <option value="easy">Easy</option>
+                        <option value="medium">Medium</option>
+                        <option value="hard">Hard</option>
+                        <option value="extreme">Extreme</option>
+                    </select>
+                </label>
+
+                <label class="custom-select" for="playersSelect">
+                    <select id="playersSelect">
+                        <option selected disabled value="">Players</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </label>
+            </section>
+
+            <button class="main-button">Generate</button>
+        </section>
+    </main>
+</body>
+</html>
