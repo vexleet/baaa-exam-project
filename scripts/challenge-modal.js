@@ -2,14 +2,15 @@ const modal = document.getElementById("challengeModal");
 const fields = document.querySelectorAll(".field");
 const completeBtn = document.querySelector(".close-challenge-modal");
 
-// When the user clicks on the button, open the modal
+// Loop through all the fields and add them a click event listener
 fields.forEach((field) => {
+// When the user clicks on the button, open the modal
   field.addEventListener('click', () => {
     modal.style.display = "block";
   })
 })
 
-// When the user clicks on <span> (x), close the modal
+// When the user clicks on complete button, close the modal
 completeBtn.addEventListener('click', () => {
   modal.style.display = "none";
 })

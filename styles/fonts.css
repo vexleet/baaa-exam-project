@@ -2,25 +2,28 @@
     font-family: "Raleway-Regular";
     font-style: normal;
     font-weight: normal;
-    src: url("../fonts/Raleway-Regular.ttf");
+    src: local('Raleway-Regular'), local('Raleway-Regular'), url(../fonts/Raleway-Regular.ttf);
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Raleway-Bold";
     font-style: normal;
     font-weight: bold;
-    src: url("../fonts/Raleway-Bold.ttf");
+    src: local('Raleway-Bold'), local('Raleway-Bold'), url(../fonts/Raleway-Bold.ttf);
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Raleway-Black";
     font-style: normal;
-    src: url("../fonts/Raleway-Black.ttf");
+    src: local('Raleway-Black'), local('Raleway-Black'), url(../fonts/Raleway-Black.ttf);
+    font-display: swap;
 }
 
 @font-face {
     font-face-name: "PlayfairDisplay-Bold";
     font-style: normal;
-    font-weight: bold;
-    src: url("../fonts/PlayfairDisplay-Bold.ttf");
+    src: local('PlayfairDisplay-Bold'), local('PlayfairDisplay-Bold'), url(../fonts/PlayfairDisplay-Bold.ttf);
+    font-display: swap;
 }
