@@ -63,18 +63,17 @@ select {
     /* Personalize */
     width: 100%;
     padding: 10px 45px 10px 15px;
-    background: transparent;
     color: var(--primary);
     border-radius: 10px;
-    background: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg)
-    no-repeat right 0.8em center / 1.4em,
-    linear-gradient(to left, var(--primary) 3em, transparent 3em);
     border: 2px solid var(--primary);
     box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
     cursor: pointer;
     font-family: Raleway-Regular, sans-serif;
     font-size: 20px;
     max-width: 100%;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg)
+    no-repeat right 0.8em center / 1.4em,
+    linear-gradient(to left, var(--primary) 3em, transparent 3em);
 }
 /* <option> colors */
 option {
